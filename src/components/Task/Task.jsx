@@ -13,7 +13,7 @@ const Task = (data) => {
             <input type="checkbox" data-cy="task-checkbox" />
             <div data-cy="task-text"></div>
             <button data-cy="task-remove-button">Remove Task</button>
-            <Counter value={task.count} />
+            <Counter/>
           </li>
         );
       })}
